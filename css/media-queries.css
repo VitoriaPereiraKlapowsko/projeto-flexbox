@@ -67,16 +67,23 @@
         align-items: center;
     }
 
-    .footer-col1{
-        width: 100%;
-    }
-    
     .footer .footer-row1{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 30px;
     }
 
+    .footer .footer-row1 .footer-col1,
+    .footer-col2,
+    .footer-col3 {
+      width: 100%; 
+      justify-content: center;
+     
+    }
 
+    .footer-social{
+        gap: 15px;
+    }
   }
